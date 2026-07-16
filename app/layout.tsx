@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   authors: [{ name: "SDN Loji 3 Bogor" }],
   creator: "PancakaLabs",
   publisher: "SDN Loji 3 Kota Bogor",
-  metadataBase: new URL("https://websiteloji.vercel.app"),
+  metadataBase: new URL("https://sdnloji3kotabogor.sch.id"),
   alternates: {
     canonical: "/",
   },

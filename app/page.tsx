@@ -35,12 +35,12 @@ export default function Home() {
       duration: 1,
       ease: "back.out(1.7)"
     })
-    .to(splashTextRef.current, {
-      opacity: 1,
-      y: 0,
-      duration: 0.8,
-      ease: "power2.out"
-    }, "-=0.4");
+      .to(splashTextRef.current, {
+        opacity: 1,
+        y: 0,
+        duration: 0.8,
+        ease: "power2.out"
+      }, "-=0.4");
 
     // Exit animation
     const timer = setTimeout(() => {
@@ -407,14 +407,14 @@ export default function Home() {
                 <p>Kepala SDN Loji 3 Kota Bogor</p>
               </div>
             </div>
-            
+
             <div className="sambutan-header">
               <span className="sambutan-badge">Sambutan Kepala Sekolah</span>
               <h2>SDN Loji 3 Kota Bogor</h2>
               <span className="sambutan-session">Tahun Ajaran 2026/2027</span>
               <div className="divider-left" />
             </div>
-            
+
             <div className="sambutan-text">
               <p className="salutation">Assalamu’alaikum warahmatullahi wabarakatuh,</p>
               <p>
@@ -503,6 +503,7 @@ export default function Home() {
                 <li><strong>BINTANG:</strong> Bina Minat Bakat Menuju Prestasi Gemilang.</li>
                 <li><strong>KOIN:</strong> Kelola Uang dengan Inovatif and Niat Baik.</li>
                 <li><strong>BANK JELI:</strong> Bank Jelantah untuk Lingkungan Bersih.</li>
+                <li><strong>LOJI 3 BERMITRA:</strong> BERsama MIliki komitmen TRAnsformatif — Program kolaborasi berkelanjutan antara sekolah dan seluruh mitra strategis untuk meningkatkan kualitas layanan pendidikan.</li>
               </ul>
             </div>
           </div>

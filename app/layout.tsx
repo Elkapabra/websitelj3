@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     default: "SDN LOJI 3 KOTA BOGOR",
     template: "%s | SDN LOJI 3 KOTA BOGOR",
   },
-  description: "Terwujudnya peserta didik yang cerdas, terampil, dan berbudaya berdasarkan IMTAQ dan IPTEK.",
+  description: "Website Resmi SD Negeri Loji 3 Bogor. Terwujudnya peserta didik yang cerdas, terampil, dan berbudaya berdasarkan IMTAQ dan IPTEK.",
   keywords: [
     "SDN Loji 3",
     "SDN Loji 3 Kota Bogor",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "SDN LOJI 3 KOTA BOGOR",
-    description: "Terwujudnya peserta didik yang cerdas, terampil, dan berbudaya berdasarkan IMTAQ dan IPTEK.",
+    description: "Website Resmi SD Negeri Loji 3 Bogor. Terwujudnya peserta didik yang cerdas, terampil, dan berbudaya berdasarkan IMTAQ dan IPTEK.",
     url: "https://websiteloji.vercel.app",
     siteName: "SDN Loji 3 Kota Bogor",
     locale: "id_ID",
@@ -66,7 +66,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "SDN LOJI 3 KOTA BOGOR",
-    description: "Terwujudnya peserta didik yang cerdas, terampil, dan berbudaya berdasarkan IMTAQ dan IPTEK.",
+    description: "Website Resmi SD Negeri Loji 3 Bogor. Terwujudnya peserta didik yang cerdas, terampil, dan berbudaya berdasarkan IMTAQ dan IPTEK.",
     images: ["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoLB1rWDMb0WBuICnYTqtihgeeuwlIvVuD6J29EVzoBySJimcle4JuB7lELj99EU1PhIGgCrlgDVfGLD3llV-LS4jeZyB4HthTLVhKokp3NDGSlZv3-V2NAiPcT1H5DoP1z8UT6ubcQPeVhBlWPpUYxmRyKlDRefVImJ4vTlPKh_3qbKe7us1EVfJKO9C7/s16000/sasku-icon.png"],
   },
 };

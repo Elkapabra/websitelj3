@@ -501,7 +501,7 @@ export default function Home() {
                 <li><strong>SELAMAT:</strong> Selasa Rabu Kamis Senam Sehat.</li>
                 <li><strong>JUM&apos;AT BERSERI:</strong> Bersih, Sehat, Religi.</li>
                 <li><strong>BINTANG:</strong> Bina Minat Bakat Menuju Prestasi Gemilang.</li>
-                <li><strong>KOIN:</strong> Kelola Uang dengan Inovatif and Niat Baik.</li>
+                <li><strong>KOIN:</strong> Kelola Uang dengan Inovatif dan Niat Baik.</li>
                 <li><strong>BANK JELI:</strong> Bank Jelantah untuk Lingkungan Bersih.</li>
                 <li><strong>LOJI 3 BERMITRA:</strong> BERsama MIliki komitmen TRAnsformatif — Program kolaborasi berkelanjutan antara sekolah dan seluruh mitra strategis untuk meningkatkan kualitas layanan pendidikan.</li>
               </ul>

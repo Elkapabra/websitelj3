@@ -8,8 +8,39 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "SDN LOJI 3 KOTA BOGOR",
-  description: "SDN Loji 3 Kota Bogor hadir sebagai ruang belajar yang aman, bermakna, dan menumbuhkan potensi setiap anak.",
+  title: {
+    default: "SDN LOJI 3 KOTA BOGOR",
+    template: "%s | SDN LOJI 3 KOTA BOGOR",
+  },
+  description: "Website Resmi SD Negeri Loji 3 Kota Bogor. Wadah pembelajaran yang aman, bermakna, dan menyenangkan untuk menumbuhkan potensi terbaik anak.",
+  keywords: [
+    "SDN Loji 3",
+    "SDN Loji 3 Kota Bogor",
+    "SD Negeri Loji 3",
+    "Sekolah Dasar Bogor",
+    "SD Loji 3",
+    "Pendidikan Bogor",
+    "SD Terbaik di Bogor",
+    "Sekolah Loji"
+  ],
+  authors: [{ name: "SDN Loji 3 Bogor" }],
+  creator: "PancakaLabs",
+  publisher: "SDN Loji 3 Kota Bogor",
+  metadataBase: new URL("https://websiteloji.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   icons: {
     icon: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoLB1rWDMb0WBuICnYTqtihgeeuwlIvVuD6J29EVzoBySJimcle4JuB7lELj99EU1PhIGgCrlgDVfGLD3llV-LS4jeZyB4HthTLVhKokp3NDGSlZv3-V2NAiPcT1H5DoP1z8UT6ubcQPeVhBlWPpUYxmRyKlDRefVImJ4vTlPKh_3qbKe7us1EVfJKO9C7/s16000/sasku-icon.png?v=2",
     shortcut: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoLB1rWDMb0WBuICnYTqtihgeeuwlIvVuD6J29EVzoBySJimcle4JuB7lELj99EU1PhIGgCrlgDVfGLD3llV-LS4jeZyB4HthTLVhKokp3NDGSlZv3-V2NAiPcT1H5DoP1z8UT6ubcQPeVhBlWPpUYxmRyKlDRefVImJ4vTlPKh_3qbKe7us1EVfJKO9C7/s16000/sasku-icon.png?v=2",
@@ -18,17 +49,24 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     title: "SDN LOJI 3 KOTA BOGOR",
-    description: "SDN Loji 3 Kota Bogor hadir sebagai ruang belajar yang aman, bermakna, dan menumbuhkan potensi setiap anak.",
+    description: "Website Resmi SD Negeri Loji 3 Kota Bogor. Wadah pembelajaran yang aman, bermakna, dan menyenangkan untuk menumbuhkan potensi terbaik anak.",
+    url: "https://websiteloji.vercel.app",
+    siteName: "SDN Loji 3 Kota Bogor",
+    locale: "id_ID",
     images: [
       {
         url: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoLB1rWDMb0WBuICnYTqtihgeeuwlIvVuD6J29EVzoBySJimcle4JuB7lELj99EU1PhIGgCrlgDVfGLD3llV-LS4jeZyB4HthTLVhKokp3NDGSlZv3-V2NAiPcT1H5DoP1z8UT6ubcQPeVhBlWPpUYxmRyKlDRefVImJ4vTlPKh_3qbKe7us1EVfJKO9C7/s16000/sasku-icon.png",
+        width: 1200,
+        height: 630,
+        alt: "Logo SDN Loji 3 Kota Bogor",
+        type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
     title: "SDN LOJI 3 KOTA BOGOR",
-    description: "SDN Loji 3 Kota Bogor hadir sebagai ruang belajar yang aman, bermakna, dan menumbuhkan potensi setiap anak.",
+    description: "Website Resmi SD Negeri Loji 3 Kota Bogor. Wadah pembelajaran yang aman, bermakna, dan menyenangkan untuk menumbuhkan potensi terbaik anak.",
     images: ["https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoLB1rWDMb0WBuICnYTqtihgeeuwlIvVuD6J29EVzoBySJimcle4JuB7lELj99EU1PhIGgCrlgDVfGLD3llV-LS4jeZyB4HthTLVhKokp3NDGSlZv3-V2NAiPcT1H5DoP1z8UT6ubcQPeVhBlWPpUYxmRyKlDRefVImJ4vTlPKh_3qbKe7us1EVfJKO9C7/s16000/sasku-icon.png"],
   },
 };

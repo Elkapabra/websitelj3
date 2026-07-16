@@ -427,7 +427,7 @@ export default function Home() {
                 SDN Loji 3 memiliki visi: <strong>“Terwujudnya peserta didik yang cerdas, terampil, dan berbudaya berdasarkan IMTAQ dan IPTEK.”</strong>
               </p>
               <p>
-                Untuk mewujudkan visi tersebut, kami terus berupaya menciptakan lingkungan belajar yang aman, nyaman, menyenangkan, dan berkarakter. Melalui pembelajaran yang berkualitas, penguatan nilai-nilai keagamaan, pengembangan literasi, numerasi, teknologi informasi, serta berbagai kegiatan ekstrakurikuler, kami berharap peserta didik dapat tumbuh menjadi generasi yang berprestasi and memiliki akhlak mulia.
+                Untuk mewujudkan visi tersebut, kami terus berupaya menciptakan lingkungan belajar yang aman, nyaman, menyenangkan, dan berkarakter. Melalui pembelajaran yang berkualitas, penguatan nilai-nilai keagamaan, pengembangan literasi, numerasi, teknologi informasi, serta berbagai kegiatan ekstrakurikuler, kami berharap peserta didik dapat tumbuh menjadi generasi yang berprestasi dan memiliki akhlak mulia.
               </p>
               <p>
                 Pada Tahun Ajaran 2026/2027, kami berkomitmen untuk meningkatkan mutu layanan pendidikan melalui kolaborasi yang erat antara sekolah, orang tua, komite sekolah, dan seluruh pemangku kepentingan. Dukungan dan partisipasi aktif dari semua pihak menjadi kunci keberhasilan dalam membentuk generasi penerus bangsa yang unggul.
@@ -482,13 +482,13 @@ export default function Home() {
                 <i aria-hidden="true" className="fas fa-star" /> Tujuan Sekolah
               </h2>
               <ul>
-                <li>Terbentuknya pribadi peserta didik yang beriman, bertakwa and berperilaku religius.</li>
+                <li>Terbentuknya pribadi peserta didik yang beriman, bertakwa dan berperilaku religius.</li>
                 <li>Terbentuknya pribadi peserta didik yang berakhlak mulia.</li>
                 <li>Terbentuknya peserta didik yang terampil dalam memanfaatkan teknologi informasi.</li>
                 <li>Terwujudnya pembelajaran dengan pendekatan deep learning (pembelajaran mendalam).</li>
-                <li>Meningkatnya kompetensi literasi yang terampil dalam mengolah informasi, berkomunikasi and berinteraksi secara positif.</li>
-                <li>Terciptanya lingkungan sekolah yang kondusif, aman, nyaman, tentram, damai, tertib, disiplin, sehat, kekeluargaan and penuh tanggung jawab.</li>
-                <li>Terjalin kerjasama yang harmonis antara sekolah dengan orang tua, masyarakat, and para stake holder.</li>
+                <li>Meningkatnya kompetensi literasi yang terampil dalam mengolah informasi, berkomunikasi dan berinteraksi secara positif.</li>
+                <li>Terciptanya lingkungan sekolah yang kondusif, aman, nyaman, tentram, damai, tertib, disiplin, sehat, kekeluargaan dan penuh tanggung jawab.</li>
+                <li>Terjalin kerjasama yang harmonis antara sekolah dengan orang tua, masyarakat, dan para stake holder.</li>
               </ul>
             </div>
 
@@ -515,8 +515,8 @@ export default function Home() {
         <div className="container">
           <div className="section-header">
             <div className="divider" />
-            <h2>Fasilitas and Kegiatan Unggulan</h2>
-            <p>Kami berkomitmen menyediakan sarana terbaik untuk menunjang perkembangan intelektual and karakter siswa.</p>
+            <h2>Fasilitas dan Kegiatan Unggulan</h2>
+            <p>Kami berkomitmen menyediakan sarana terbaik untuk menunjang perkembangan intelektual dan karakter siswa.</p>
           </div>
 
           <div className="section-grid">
@@ -534,8 +534,8 @@ export default function Home() {
               <div className="card-content">
                 <h2>Pramuka</h2>
                 <p>
-                  Berpusat di Pangkalan SD Negeri Loji 3, Gugus Depan 04.213 and 04.214 menjadi wadah utama
-                  pembentukan karakter, kemandirian, and kerjasama tunas bangsa yang tangguh.
+                  Berpusat di Pangkalan SD Negeri Loji 3, Gugus Depan 04.213 dan 04.214 menjadi wadah utama
+                  pembentukan karakter, kemandirian, dan kerjasama tunas bangsa yang tangguh.
                 </p>
               </div>
             </div>
@@ -555,7 +555,7 @@ export default function Home() {
                 <h2>Perpustakaan</h2>
                 <p>
                   Hadir dengan koleksi yang terus berkembang, Perpustakaan SDN Loji 3 menjadi pusat literasi
-                  and eksplorasi ilmu pengetahuan bagi seluruh warga sekolah.
+                  dan eksplorasi ilmu pengetahuan bagi seluruh warga sekolah.
                 </p>
               </div>
             </div>
@@ -575,12 +575,12 @@ export default function Home() {
                 <h2>Lab Komputer</h2>
                 <p>
                   Dilengkapi dengan fasilitas perangkat komputer untuk mendukung pembelajaran Teknologi
-                  Informasi and Komunikasi serta literasi digital siswa.
+                  Informasi dan Komunikasi serta literasi digital siswa.
                 </p>
               </div>
             </div>
 
-            {/* Gedung and Lapangan */}
+            {/* Gedung dan Lapangan */}
             <div className="card">
               <div className="card-img">
                 <img
@@ -592,10 +592,10 @@ export default function Home() {
                 />
               </div>
               <div className="card-content">
-                <h2>Gedung and Lapangan</h2>
+                <h2>Gedung dan Lapangan</h2>
                 <p>
                   Fasilitas gedung yang representatif serta lapangan yang cukup luas untuk mendukung aktivitas
-                  olahraga, upacara, and kegiatan luar ruangan siswa.
+                  olahraga, upacara, dan kegiatan luar ruangan siswa.
                 </p>
               </div>
             </div>
@@ -608,7 +608,7 @@ export default function Home() {
         <div className="container">
           <div className="section-header">
             <div className="divider" />
-            <h2>Legalitas and Data Sekolah</h2>
+            <h2>Legalitas dan Data Sekolah</h2>
             <p>Data resmi SDN Loji 3 Bogor yang terintegrasi dengan database Kemendikdasmen.</p>
           </div>
 
@@ -663,7 +663,7 @@ export default function Home() {
           <div className="section-header">
             <div className="divider" />
             <h2>Galeri Kami</h2>
-            <p>Momen-momen berharga and keceriaan kami dalam berbagai kegiatan di SDN Loji 3 Bogor.</p>
+            <p>Momen-momen berharga dan keceriaan kami dalam berbagai kegiatan di SDN Loji 3 Bogor.</p>
           </div>
 
           <div className="gallery-grid">
@@ -690,7 +690,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* News and Social Section */}
+      {/* News dan Social Section */}
       <section className="news-section" id="berita">
         <div className="container">
           <div className="section-header">

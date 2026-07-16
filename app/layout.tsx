@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: "googlef6c1ba98af2d34a6",
+    google: "Cr_7wIp44VTsgH3TR8oEf7_5rwx_-_scwYOzsDbwwrY",
   },
   icons: {
     icon: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoLB1rWDMb0WBuICnYTqtihgeeuwlIvVuD6J29EVzoBySJimcle4JuB7lELj99EU1PhIGgCrlgDVfGLD3llV-LS4jeZyB4HthTLVhKokp3NDGSlZv3-V2NAiPcT1H5DoP1z8UT6ubcQPeVhBlWPpUYxmRyKlDRefVImJ4vTlPKh_3qbKe7us1EVfJKO9C7/s16000/sasku-icon.png?v=2",

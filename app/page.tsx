@@ -237,9 +237,9 @@ export default function Home() {
     const target = document.getElementById(targetId);
     if (target) {
       gsap.to(window, {
-        duration: 1.2,
+        duration: 0.5,
         scrollTo: { y: target, offsetY: 80 },
-        ease: "power4.inOut"
+        ease: "power2.out"
       });
     }
     setMobileMenuOpen(false);
@@ -247,9 +247,9 @@ export default function Home() {
 
   const handleBackToTop = () => {
     gsap.to(window, {
-      duration: 1.2,
+      duration: 0.5,
       scrollTo: 0,
-      ease: "power4.inOut"
+      ease: "power2.out"
     });
   };
 
@@ -257,7 +257,13 @@ export default function Home() {
     setShowAllPhotos(!showAllPhotos);
     if (showAllPhotos) {
       const target = document.getElementById("galeri");
-      if (target) target.scrollIntoView({ behavior: "smooth" });
+      if (target) {
+        gsap.to(window, {
+          duration: 0.5,
+          scrollTo: { y: target, offsetY: 80 },
+          ease: "power2.out"
+        });
+      }
     }
     setTimeout(() => {
       ScrollTrigger.refresh();
@@ -494,7 +500,7 @@ export default function Home() {
 
             <div className="program-box">
               <h2>
-                <i aria-hidden="true" className="fas fa-calendar-check" /> Program Sekolah
+                <i aria-hidden="true" className="fas fa-calendar-check" /> Program Kegiatan
               </h2>
               <ul>
                 <li><strong>SIRAMA:</strong> Senin Upacara Bersama.</li>
@@ -696,7 +702,7 @@ export default function Home() {
           <div className="section-header">
             <div className="divider" />
             <h2>Berita Terbaru</h2>
-            <p>Pantau terus kegiatan seru kami di berbagai kanal media sosial resmi SDN Loji 3 Bogor.</p>
+            <p>Pantau terus kegiatan seru kami di berbagai kanal media sosial resmi SDN Loji 3 Kota Bogor.</p>
           </div>
 
           <div className="social-connect">

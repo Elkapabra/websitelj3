@@ -781,7 +781,7 @@ export default function Home() {
             </div>
           </div>
           <div className="footer-bottom">
-            &#169; 2026 SDN Loji 3 Bogor. Powered By{" "}
+            &#169; 2026 SDN Loji 3 Kota Bogor. Powered By{" "}
             <a
               className="dev-link"
               href="https://pancakalabs.my.id"
